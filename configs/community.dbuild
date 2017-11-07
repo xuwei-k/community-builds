@@ -251,6 +251,11 @@ build += {
   }
 
   ${vars.base} {
+    name: "scalatra"
+    uri:  "https://github.com/scalatra/scalatra.git#2.6.x"
+  }
+
+  ${vars.base} {
     name: "scodec-bits"
     uri:  ${vars.uris.scodec-bits-uri}
     extra: ${vars.base.extra} {
